@@ -17,7 +17,7 @@ const PostListItem = (props) => {
   const addLikeFunc = async () => {
     addLike({
       post: { id: post.id },
-      user: { id: activeUser.id, username: activeUser.username },
+      user: { id: activeUser.id, userName: activeUser.userName },
     });
   };
   const removeLikeFunc = async () => {
