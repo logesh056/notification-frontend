@@ -1,1 +1,1 @@
-export const BASE_URL = "http://localhost:8087/communication";
+export const BASE_URL = "https://hcc.encipherhealth.com/secure/communication";
